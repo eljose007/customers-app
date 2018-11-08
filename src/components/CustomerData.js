@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CostumerData = ({ name, dni, age }) => {
+const CustomerData = ({ name, dni, age }) => {
     return (
         <div>
             <div className="customer-data">
@@ -15,10 +15,10 @@ const CostumerData = ({ name, dni, age }) => {
     );
 };
 
-CostumerData.propTypes = {
+CustomerData.propTypes = {
     name: PropTypes.string.isRequired,
     dni: PropTypes.string.isRequired,
     age: PropTypes.number,
 };
 
-export default CostumerData;
+export default CustomerData;
